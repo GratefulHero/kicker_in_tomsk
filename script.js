@@ -5,6 +5,7 @@ form.addEventListener("submit", async (event) => {
 
     const name = document.querySelector("#name").value.trim();
     const textarea = document.querySelector("#textarea").value.trim();
+    const checkbox = document.querySelector("#checkbox").checked;
 
     if (name === "") {
         alert("Введите своё имя");
@@ -13,6 +14,11 @@ form.addEventListener("submit", async (event) => {
 
     if (textarea === "") {
         alert("Напишите, откуда Вы узнал про настольный футбол");
+        return;
+    }
+
+    if (checkbox === false) {
+        alert("Согласитесь на передачу данных");
         return;
     }
 

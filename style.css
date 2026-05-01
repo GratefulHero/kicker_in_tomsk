@@ -51,3 +51,28 @@ body {
   background-image: linear-gradient(#ffffff, #17d362);
   background-attachment: fixed;
 }
+
+
+h2, p, span {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #464545;
+}
+
+section {
+	padding: 15px;
+}
+.footer {
+	justify-content: center;
+}
+
+#form {
+	justify-content: center;
+}
+
+a:link {
+	color:#17d362;
+	text-decoration: none;
+}

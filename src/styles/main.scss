@@ -1,0 +1,28 @@
+@mixin image ($radius: 15px, $height:600px, $border:5px solid white ) {
+	border-radius: $radius;
+	height: $height;
+    border: $border;
+}
+
+#Foto_hero {
+    @include image;
+
+}
+
+#Foto_1 {
+    @include image;
+
+}
+
+#Foto_2 {
+    @include image;
+
+}
+
+#Foto_3 {
+    @include image;
+}
+
+#logo {
+    @include image (0px, 50px, 0px);
+}
