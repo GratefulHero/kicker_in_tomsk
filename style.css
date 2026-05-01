@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/* Reset.css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,12 +48,13 @@ table {
 	border-spacing: 0;
 }
 
+/* Градиент на фоне */
 body {
   background-image: linear-gradient(#ffffff, #17d362);
   background-attachment: fixed;
 }
 
-
+/* Настройки шрифта */
 h2, p, span {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
@@ -61,6 +63,7 @@ h2, p, span {
   color: #464545;
 }
 
+/* Отступы между блоками */
 section {
 	padding: 15px;
 }
@@ -73,6 +76,13 @@ section {
 }
 
 a:link {
-	color:#17d362;
 	text-decoration: none;
+}
+
+#link_header {
+	color:#17d362;
+}
+
+#link_footer {
+	color:#ffffff;
 }
